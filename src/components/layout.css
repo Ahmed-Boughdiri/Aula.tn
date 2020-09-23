@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -18,6 +20,11 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 article,
 aside,
@@ -51,6 +58,10 @@ template {
   display: none;
 }
 a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  color: #fff;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }

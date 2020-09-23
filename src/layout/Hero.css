@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(24,104,174);
+    background: linear-gradient(194deg, rgba(24,104,174,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+.hero-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.hero-container .right-side {
+    height: 900px;
+    width: 950px;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+.hero-container .left-side {
+    height: 320px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-45%);
+    color: #fff;
+}
+.hero-container .left-side h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.hero-container .left-side p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 45px;
+}
+.hero-container .left-side button {
+    height: 48px;
+    width: 170px;
+    background-color: #59cf84;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
