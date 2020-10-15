@@ -1,10 +1,10 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import "../layout/Header.css";
+import React from "react";
+import "../layout/NavBar.css";
+import { Link } from "gatsby";
 
-const Header = () => {
+const NavBar = () =>{
     return (
-        <div className="header">
+        <div className="navbar">
             <img src={require("../images/official-logo.png")} className="logo" />
             <div className="nav">
                 <div className="nav-item">
@@ -27,4 +27,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default NavBar;

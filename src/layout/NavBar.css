@@ -1,0 +1,32 @@
+
+.navbar {
+    height: 60px;
+    width: 100vw;
+    background-color: rgb(24,104,174);
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar .logo {
+    height: 35px;
+    margin-top: 25px;
+}
+.navbar .nav {
+    height: 50px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: 30px;
+}
+.navbar .nav .nav-item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
