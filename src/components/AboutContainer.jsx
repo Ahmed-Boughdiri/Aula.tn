@@ -1,5 +1,6 @@
-import React from "react"
-import "../layout/AboutContainer.css"
+import React from "react";
+import "../layout/AboutContainer.css";
+import "../mobile/AboutContainer.css";
 
 const AboutContainer = () => {
   return (

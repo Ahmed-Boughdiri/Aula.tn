@@ -1,5 +1,6 @@
 import React from "react"
 import "../layout/PodcastContainer.css"
+import "../mobile/PodcastContainer.css";
 
 const PodcastContainer = () => {
   return (
