@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 700px) {
+    .podcasts {
+        height: 150vh;
+        display: block;
+    }
+    .podcasts-container {
+        display: block;
+    }
+}

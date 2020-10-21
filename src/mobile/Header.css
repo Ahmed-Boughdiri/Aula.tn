@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 900px) {
+    .header .nav {
+        display: none;
+    }
+    .header .logo {
+        margin: auto 0;
+    }
+    .header {
+        padding: 0 15px;
+    }
+    .header .menu {
+        display: block;
+        height: 40px;
+        margin: auto 0;
+        margin-left: calc(100% - 170px);
+    }
+    .header .menu img {
+        height: 100%;
+        width: 100%;
+    }
+}

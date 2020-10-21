@@ -1,5 +1,6 @@
 import React from 'react';
 import "../layout/Articles.css";
+import "../mobile/Articles.css";
 
 const Article = ({ title, category, img, des, center=false }) =>{
     return (

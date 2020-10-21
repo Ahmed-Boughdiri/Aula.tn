@@ -1,0 +1,16 @@
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        height: 900px;
+    }
+    .top-footer-container {
+        display: block;
+    }
+    .bottom-footer {
+        height: 8%;
+        margin-top: 20%;
+    }
+    .social-media-container {
+        width: 100%;
+    }
+}

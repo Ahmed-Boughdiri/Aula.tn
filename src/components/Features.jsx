@@ -1,5 +1,6 @@
 import React from 'react';
 import "../layout/Features.css";
+import "../mobile/Features.css";
 
 const Feature = ({ title, des, icon }) =>{
     return (

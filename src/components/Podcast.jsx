@@ -1,5 +1,6 @@
 import React from 'react';
 import "../layout/Podcast.css";
+import "../mobile/Podcast.css";
 
 const Podcast = ({ title, des, img }) =>{
     return(

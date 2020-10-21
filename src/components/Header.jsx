@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import "../layout/Header.css";
+import "../mobile/header.css";
 
 const Header = () => {
     return (
@@ -22,6 +23,9 @@ const Header = () => {
                 <div className="nav-item">
                     <Link to="/podcast">Podcast</Link>
                 </div>
+            </div>
+            <div className="menu">
+                <img src={require("../assets/menu.svg")} />
             </div>
         </div>
     )

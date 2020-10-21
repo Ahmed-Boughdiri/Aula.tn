@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 700px) {
+    .features {
+        height: 230vh;
+        display: block;
+        padding-top: 60px;
+    }
+    .features-container {
+        display: block;
+    }
+}

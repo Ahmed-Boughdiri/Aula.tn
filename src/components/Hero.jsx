@@ -2,6 +2,7 @@ import React from 'react';
 import "../layout/Hero.css";
 import { Link } from "gatsby";
 import Header from "../components/Header";
+import "../mobile/Hero.css";
 
 const Hero = () => {
     return (
