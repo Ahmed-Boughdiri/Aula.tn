@@ -1,6 +1,7 @@
 import React from "react";
 import "../layout/NavBar.css";
 import { Link } from "gatsby";
+import "../mobile/NavBar.css";
 
 const NavBar = () =>{
     return (
@@ -22,6 +23,9 @@ const NavBar = () =>{
                 <div className="nav-item">
                     <Link to="/podcast">Podcast</Link>
                 </div>
+            </div>
+            <div className="menu">
+                <img src={require("../assets/menu.svg")} />
             </div>
         </div>
     )

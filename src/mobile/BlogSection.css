@@ -1,0 +1,20 @@
+
+@media only screen and (max-width: 900px) {
+    .blog-article {
+        height: 600px;
+        flex-direction: column;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-article-img {
+        width: 100%;
+        height: 40%;
+    }
+    .blog-article-details {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+}

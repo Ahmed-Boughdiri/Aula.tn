@@ -1,5 +1,6 @@
 import React from "react"
-import "../layout/BlogSection.css"
+import "../layout/BlogSection.css";
+import "../mobile/BlogSection.css";
 
 const Blog = () => {
   return (
