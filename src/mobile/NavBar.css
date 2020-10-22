@@ -2,6 +2,15 @@
 @media only screen and (max-width: 900px) {
     .navbar .nav {
         display: none;
+        width: 100vw !important;
+        background-color: rgb(24,104,174);
+        position: absolute;
+        left: 0;
+        top: 60px;
+        height: fit-content;
+    }
+    .navbar .nav .nav-item {
+        height: 50px;
     }
     .navbar {
         padding: 0 15px;

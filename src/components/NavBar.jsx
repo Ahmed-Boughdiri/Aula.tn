@@ -1,9 +1,20 @@
-import React from "react";
+import React,{ useState } from "react";
 import "../layout/NavBar.css";
 import { Link } from "gatsby";
 import "../mobile/NavBar.css";
 
 const NavBar = () =>{
+    const [navOpen,setNavOpen] = useState(false)
+    const showNav = () =>{
+        const nav = document.querySelector(".nav");
+        if(!navOpen) {
+            nav.style.display = "block";
+            setNavOpen(true)
+        } else {
+            nav.style.display = "none";
+            setNavOpen(false)
+        }
+    }
     return (
         <div className="navbar">
             <img src={require("../images/official-logo.png")} className="logo" />
@@ -24,7 +35,7 @@ const NavBar = () =>{
                     <Link to="/podcast">Podcast</Link>
                 </div>
             </div>
-            <div className="menu">
+            <div className="menu" onClick={showNav}>
                 <img src={require("../assets/menu.svg")} />
             </div>
         </div>

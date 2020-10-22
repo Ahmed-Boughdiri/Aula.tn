@@ -1,9 +1,20 @@
 import { Link } from 'gatsby';
-import React from 'react';
+import React,{ useState } from 'react';
 import "../layout/Header.css";
 import "../mobile/header.css";
 
 const Header = () => {
+    const [navOpen,setNavOpen] = useState(false);
+    const openNav = () =>{
+        const nav = document.querySelector(".nav");
+        if(!navOpen) {
+            nav.style.display = "block";
+            setNavOpen(true);
+        } else {
+            nav.style.display = "none";
+            setNavOpen(false);
+        }
+    }
     return (
         <div className="header">
             <img src={require("../images/official-logo.png")} className="logo" />
@@ -24,7 +35,7 @@ const Header = () => {
                     <Link to="/podcast">Podcast</Link>
                 </div>
             </div>
-            <div className="menu">
+            <div className="menu" onClick={openNav}>
                 <img src={require("../assets/menu.svg")} />
             </div>
         </div>

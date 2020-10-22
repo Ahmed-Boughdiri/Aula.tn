@@ -2,20 +2,25 @@
 @media only screen and (max-width: 900px) {
     .header .nav {
         display: none;
+        width: 100vw !important;
+        background-color: rgb(24,104,174);
+        position: absolute;
+        left: 0;
+        top: 70px;
+        height: fit-content;
     }
-    .header .logo {
-        margin: auto 0;
+    .header .nav .nav-item {
+        height: 50px;
     }
     .header {
         padding: 0 15px;
     }
-    .header .menu {
-        display: block;
+    .menu {
         height: 40px;
-        margin: auto 0;
-        margin-left: calc(100% - 170px);
+        display: block !important;
+        margin-left: calc(100% - 180px);
     }
-    .header .menu img {
+    .menu img {
         height: 100%;
         width: 100%;
     }
