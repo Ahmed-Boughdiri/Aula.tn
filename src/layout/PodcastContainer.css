@@ -30,7 +30,6 @@
 }
 .podcast-card-img {
     height: 40%;
-    background: url("../images/AR.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,6 +44,7 @@
 }
 .podcast-card p {
     width: 90%;
+    height: 120px;
     display: block;
     margin: 0 auto 20px;
     font-size: 15px;

@@ -1,0 +1,38 @@
+
+@media only screen and (min-width: 1400px) {
+    .hero {
+        max-height: 800px;
+        overflow: visible !important;
+    }
+    .hero-container {
+        max-width: 2000px;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: visible;
+    }
+    .hero-container .right-side {
+        right: -14%;
+        height: 1100px;
+        width: 1200px;
+    }
+    .features {
+        max-height: 800px;
+        max-width: 2000px;
+        margin: auto;
+    }
+    .banner {
+        max-height: 700px;
+    }
+    .banner-img {
+        transform: translate(-50%,-55%);
+    }
+    .banner-content {
+        transform: translateX(50%);
+    }
+    .articles {
+        max-height: 700px;
+    }
+    .podcasts {
+        max-height: 500px;
+    }
+}

@@ -6,6 +6,7 @@ import Banner from "../components/Banner";
 import Articles from "../components/Articles";
 import Podcasts from "../components/Podcast";
 import Footer from "../components/Footer";
+import "../layout/4K.css";
 
 const IndexPage = () => (
   <div>
